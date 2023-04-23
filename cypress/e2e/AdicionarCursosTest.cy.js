@@ -6,9 +6,9 @@ const GerenciarCursosPage = require('./Pages/GerenciarCursosPage');
 describe('Como administrador,', () => {
     
     beforeEach(() => {
-        cy.session('admin', ()=>{
+        cy.session(Cypress.env('usuarioAdmin'), ()=>{
             //Dado que faço login como administrador
-            cy.login('admin', 'sandbox')
+            cy.login(Cypress.env('usuarioAdmin'), Cypress.env('senhaPadrao'))
         })
 
         //Verifico se o curso já existe

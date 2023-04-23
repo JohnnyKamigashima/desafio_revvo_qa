@@ -15,7 +15,7 @@ describe('Como administrador,', () => {
     beforeEach(() => {
         //Dado que visito a página de login
         //E faço login com o usuário admin
-        cy.login('admin', 'sandbox')
+        cy.login(Cypress.env('usuarioAdmin'), Cypress.env('senhaPadrao'))
         cy.visit('/my')
     })
 

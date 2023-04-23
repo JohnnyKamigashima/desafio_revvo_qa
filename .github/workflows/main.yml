@@ -12,4 +12,3 @@ jobs:
         uses: cypress-io/github-action@v5
         with:
           build: npx cypress run
-          start: npm start

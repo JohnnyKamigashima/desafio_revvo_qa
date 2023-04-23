@@ -1,0 +1,51 @@
+[
+  {
+    "lembrar" : "FALSE",
+    "mensagemEN" : "Success",
+    "mensagemPT" : "Sucesso",
+    "senha" : "sandbox",
+    "usuario" : "admin"
+  },
+  {
+    "lembrar" : "TRUE",
+    "mensagemEN" : "Success",
+    "mensagemPT" : "Sucesso",
+    "senha" : "sandbox",
+    "usuario" : "admin"
+  },
+  {
+    "lembrar" : "TRUE",
+    "mensagemEN" : "Invalid login, please try again",
+    "mensagemPT" : "Nome de usuário ou senha errados. Por favor tente outra vez.",
+    "senha" : "admin",
+    "usuario" : "admin"
+  },
+  {
+    "lembrar" : "FALSE",
+    "mensagemEN" : "Invalid login, please try again",
+    "mensagemPT" : "Nome de usuário ou senha errados. Por favor tente outra vez.",
+    "senha" : "admin",
+    "usuario" : "admin"
+  },
+  {
+    "lembrar" : "FALSE",
+    "mensagemEN" : "Invalid login, please try again",
+    "mensagemPT" : "Nome de usuário ou senha errados. Por favor tente outra vez.",
+    "senha" : "",
+    "usuario" : "admin"
+  },
+  {
+    "lembrar" : "TRUE",
+    "mensagemEN" : "Invalid login, please try again",
+    "mensagemPT" : "Nome de usuário ou senha errados. Por favor tente outra vez.",
+    "senha" : "sandbox",
+    "usuario" : "moodleDemo"
+  },
+  {
+    "lembrar" : "TRUE",
+    "mensagemEN" : "Invalid login, please try again",
+    "mensagemPT" : "Nome de usuário ou senha errados. Por favor tente outra vez.",
+    "senha" : "sandbox",
+    "usuario" : ""
+  }
+]

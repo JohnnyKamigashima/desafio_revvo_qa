@@ -1,0 +1,29 @@
+{
+  "name": "moodledemo",
+  "version": "1.0.0",
+  "description": "Desafio Revvo QA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyKamigashima/desafio_revvo_qa.git"
+  },
+  "keywords": [
+    "desafio",
+    "revvo",
+    "qa",
+    "cypress"
+  ],
+  "author": "Johnny Kamigashima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnyKamigashima/desafio_revvo_qa/issues"
+  },
+  "homepage": "https://github.com/JohnnyKamigashima/desafio_revvo_qa#readme",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-plugin-cypress": "^2.13.2"
+  }
+}

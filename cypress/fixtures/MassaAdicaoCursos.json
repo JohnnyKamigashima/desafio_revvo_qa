@@ -1,0 +1,44 @@
+[
+  {
+    "abrev" : "Desafio QA",
+    "categoria" : "Miscellaneous",
+    "id" : "001",
+    "mensagem" : "",
+    "nome" : "Desafio Revvo QA"
+  },
+  {
+    "abrev" : "Desafio QA",
+    "categoria" : "Miscellaneous",
+    "id" : "001b",
+    "mensagem" : "A identificação do curso deverá ser composta somente de números",
+    "nome" : "Desafio Revvo QA"
+  },
+  {
+    "abrev" : "Desafio QA",
+    "categoria" : "Miscellaneous",
+    "id" : "",
+    "mensagem" : "",
+    "nome" : "Desafio Revvo QA"
+  },
+  {
+    "abrev" : "Desafio QA",
+    "categoria" : "",
+    "id" : "001",
+    "mensagem" : "Inserir um valor",
+    "nome" : "Desafio Revvo QA"
+  },
+  {
+    "abrev" : "",
+    "categoria" : "Miscellaneous",
+    "id" : "001",
+    "mensagem" : "Está faltando o nome breve",
+    "nome" : "Desafio Revvo QA"
+  },
+  {
+    "abrev" : "Desafio QA",
+    "categoria" : "Miscellaneous",
+    "id" : "001",
+    "mensagem" : "Está faltando o nome completo",
+    "nome" : ""
+  }
+]

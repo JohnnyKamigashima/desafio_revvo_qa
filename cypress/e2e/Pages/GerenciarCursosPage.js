@@ -18,7 +18,6 @@ class GerenciarCursosPage{
             this.elementos.courseEditMenuName().should('contain', nomeCurto)
         }else{
             AddNewCoursePage.verificaMensagensDeErro(mensagem)
-            // this.elementos.coursePainelObrigatorio().should('contain', mensagem)
         }
     }
 

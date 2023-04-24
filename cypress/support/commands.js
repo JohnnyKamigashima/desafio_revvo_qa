@@ -26,3 +26,32 @@ Cypress.Commands.add('login', (login, password) => {
         
     })
 });
+
+Cypress.Commands.add('loginAPI', (login, password) => {
+    cy.session([login,password], () => {
+        let loginToken;
+        cy.request({
+            method: 'GET',
+            url: '/login/index.php'
+        })
+            .then((response) => {
+                loginToken = response.body.match(/name="logintoken" value="(.*)"/)[1];
+            })
+                .then(() => {
+                    cy.request({
+                        method: 'POST',
+                        url: '/login/index.php',
+                        body: {
+                            'anchor' : '',
+                            'logintoken' : loginToken,
+                            'username' : login,
+                            'password' : password
+                        },
+                        form: true
+                    })
+                        .then(() => {
+                            cy.visit('/my')
+                        })
+                    })
+    });
+})

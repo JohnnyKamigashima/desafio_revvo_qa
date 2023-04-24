@@ -8,7 +8,7 @@ describe('Como administrador,', () => {
     beforeEach(() => {
         cy.session(Cypress.env('usuarioAdmin'), ()=>{
             //Dado que faço login como administrador
-            cy.login(Cypress.env('usuarioAdmin'), Cypress.env('senhaPadrao'))
+            cy.loginAPI(Cypress.env('usuarioAdmin'), Cypress.env('senhaPadrao'))
         })
 
         //Verifico se o curso já existe

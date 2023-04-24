@@ -1,4 +1,3 @@
-const LoginPage = require("./Pages/LoginPage");
 const AdminSitePage = require("./Pages/AdminSitePage");
 
 describe('Como administrador,', () => {
@@ -15,7 +14,7 @@ describe('Como administrador,', () => {
     beforeEach(() => {
         //Dado que visito a página de login
         //E faço login com o usuário admin
-        cy.login(Cypress.env('usuarioAdmin'), Cypress.env('senhaPadrao'))
+        cy.loginAPI(Cypress.env('usuarioAdmin'), Cypress.env('senhaPadrao'))
         cy.visit('/my')
     })
 
